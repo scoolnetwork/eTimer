@@ -14,7 +14,7 @@
 
                 <form novalidate @submit.prevent='start'>
                     <md-input-container>
-                        <label for="team">team</label>
+                        <label for="team">Team</label>
                         <md-input type="text" v-model="team" @keyup.enter='start'></md-input>
 
                     </md-input-container>
@@ -52,6 +52,7 @@
     .team-name {
         text-align: center;
         font-size: 4em;
+        margin-left: -6%;
     }
     .form {
         position: fixed;
@@ -79,7 +80,6 @@
                             let interval = setInterval(() => {
                                 if(i > 50 || self.stop == true) {
                                     clearInterval(interval);
-                                    console.log('done')
                                 }                             
 			        		    self.buzz.play();
                                 i++;
@@ -113,7 +113,7 @@
         watch: {
             time(val) {
                 this.clock.stop();
-                this.clock.setTime(val);
+                this.clock.setTime(val * 60);
             }
         }
 
