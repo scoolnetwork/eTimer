@@ -1,6 +1,9 @@
 # etimer
 
-> An electron-vue project
+> Timer
+
+# ScreenShot
+![screenshot](https://cloud.githubusercontent.com/assets/8323355/26828357/00a38bca-4ab9-11e7-841a-8218f043bcea.png)
 
 #### Build Setup
 
@@ -19,4 +22,4 @@ npm run build
 
 ---
 
-This project was generated with [electron-vue](https://github.com/SimulatedGREG/electron-vue)@[d4b97b2](https://github.com/SimulatedGREG/electron-vue/tree/d4b97b225b2c2b2f9805a83d52339fafa68bf523) using [vue-cli](https://github.com/vuejs/vue-cli). Documentation about the original structure can be found [here](https://simulatedgreg.gitbooks.io/electron-vue/content/index.html).
+
